@@ -1,15 +1,19 @@
 # Git团队协作规范
 
 ## 新feature的开发过程
-
+1. `git status` 
+show current status of the repo and working directory
 1. `git checkout -b dev` (对于没有分支的人)
     新建dev分支
 2. `git pull origin dev`
     拉取最新数据
 3. `git checkout -b $feature`
     建立一个新分支，名称为具体内容，用于开发新功能
-4. `git commit -a -m "msg"`
-    在修改工作目录的文件后提交修改
+    `git add $file` 
+    after making changes, add file for commit
+    
+4. `git commit -m "msg"`
+    提交修改
 5. `git checkout dev`
     切换回dev分支
 6. `git pull origin dev`
