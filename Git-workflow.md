@@ -24,5 +24,4 @@
 11. `git push origin dev`
     推送到服务器
 
-[Image: img_20170124_203046_1485317240582.jpg]
-
+![Image of Workflow](/img_20170124_203046_1485317240582.jpg)
