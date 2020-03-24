@@ -9,7 +9,7 @@ show current status of the repo and working directory
     拉取最新数据
 3. `git checkout -b $feature`
     建立一个新分支，名称为具体内容，用于开发新功能
-    `git add $file` 
+   4.  `git add $file` 
     after making changes, add file for commit
     
 4. `git commit -m "msg"`
